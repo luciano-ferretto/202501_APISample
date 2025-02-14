@@ -19,10 +19,10 @@ public class PointEntity {
 	@GeneratedValue(strategy = GenerationType.UUID)
 	private UUID id;
 	
-	@Column(columnDefinition = "DECIMAL(11,8)", nullable = false)
+	@Column(columnDefinition = "DECIMAL(17,14)", nullable = false)
 	private double latitude;
 	
-	@Column(columnDefinition = "DECIMAL(11,8)", nullable = false)
+	@Column(columnDefinition = "DECIMAL(17,14)", nullable = false)
 	private double longitude;
 	
 	@Column(length = 250, nullable = false)
