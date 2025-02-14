@@ -31,7 +31,7 @@ import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 })
 @SecurityRequirement(name = "bearerAuth")
 @RestController
-@RequestMapping("/ws/foco")
+@RequestMapping("/ws/point")
 public class PointController {
 	private final PointService pointService;
 
